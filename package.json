@@ -1,0 +1,44 @@
+{
+  "name": "f-server",
+  "version": "0.0.1",
+  "description": "simple server for your programm",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-mocha --paths ./test/**/*.test.ts"
+  },
+  "files": [
+    "loggers.names.d.ts",
+    "loggers.type.d.ts",
+    "index.logger.d.ts",
+    "file.logger.d.ts",
+    "index.d.ts",
+    "loggers.names.js",
+    "loggers.type.js",
+    "index.logger.js",
+    "file.logger.js",
+    "index.js"
+  ],
+  "keywords": [
+    "simple",
+    "server",
+    "typescript",
+    "fockusty"
+  ],
+  "author": "FOCKUSTY",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.7.5",
+    "mocha": "^10.7.3",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "fock-logger": "^0.2.0"
+  }
+}
