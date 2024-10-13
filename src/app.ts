@@ -1,6 +1,6 @@
 import express, { Express, Router } from "express";
 
-import routes from "./routes/index.route";
+import routes from "./routing/index.route";
 import Config from "./config";
 
 class App {
