@@ -1,5 +1,8 @@
-import App from './src/main';
+import App from "./src/app";
+import Config from "./src/config";
 
-export * from './src/services/discord.service';
+export {
+    Config
+};
 
 export default App;
